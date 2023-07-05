@@ -372,6 +372,11 @@ img{
     text-transform: uppercase;
     font-size: 2rem;
     color: var(--primary);
-    padding: 2rem 0;
+    padding: 7rem 0 2rem 0;
+}
+@media(min-width:768px) { 
+    .footer p{
+        padding: 3rem 0 2rem 0;
+    }
 }
 /*footer*/
